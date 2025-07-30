@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+:root {
+  --cor-principal: #1a2f4b;
+  --cor-secundaria: #6fe2c7;
+  --cor-apoio: #efefef;
+  --cor-enfase: #f4d35e;
+  
+  --cor-texto-principal: #333333;
+  --cor-texto-secundario-escuro: #666666;
+
+  --cor-texto-claro: #ffffff;
+  --cor-texto-secundario-claro: #cccccc;
+
+  --fonte-principal: 'DM Serif Text', serif;
+  --fonte-secundaria: 'Arial', sans-serif;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--cor-apoio);
+  color: var(--cor-texto-principal);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

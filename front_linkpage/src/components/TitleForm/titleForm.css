@@ -1,0 +1,5 @@
+.auth-container h1 {
+  margin-bottom: 2rem;
+  font-family: var(--fonte-principal);
+  color: var(--cor-principal);
+}

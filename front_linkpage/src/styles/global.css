@@ -17,9 +17,11 @@
 }
 
 body {
+  height: 100dvh;
   font-family: 'Arial', sans-serif;
   background-color: var(--cor-apoio);
   color: var(--cor-texto-principal);
+  overflow-x: hidden;
 }
 
 * {

@@ -1,0 +1,21 @@
+.auth-container p {
+    cursor: pointer;
+}
+
+.auth-container div {
+    text-align: end;
+}
+
+.auth-container a {
+    color: rgba(26, 47, 75, 0.7);
+    transition: color 300ms;
+}
+
+.auth-container a:hover {
+    color: var(--cor-principal);
+}
+
+.auth-container:focus-within {
+  box-shadow: 0 4px 12px var(--cor-principal);
+  border-color: transparent;
+}
